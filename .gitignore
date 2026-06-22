@@ -1,0 +1,48 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Backend runtime outputs
+backend/uploads/
+backend/cropped_books_before/
+backend/cropped_books_after/
+backend/book_coordinates_*.json
+backend/results/
+backend/runs/
+
+# Keep provided sample shelves, ignore new local shelves by default
+backend/shelves/*
+!backend/shelves/1/
+!backend/shelves/1/**
+!backend/shelves/3/
+!backend/shelves/3/**
+!backend/shelves/demo_1/
+!backend/shelves/demo_1/**
+!backend/shelves/demo_2/
+!backend/shelves/demo_2/**
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/build/
+
+# Local environment files
+.env
+frontend/.env
+
+# Logs
+*.log
